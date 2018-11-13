@@ -1,0 +1,9 @@
+package de.unistuttgart.iste.rss.oo.hamstersimulator.internal.model.hamster;
+
+import de.unistuttgart.iste.rss.oo.hamstersimulator.internal.model.territory.TileContent;
+
+public class ReadOnlyHamster extends TileContent {
+
+    public /*@ pure helper @*/ int getGrainCount();
+
+}
