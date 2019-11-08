@@ -1,6 +1,7 @@
 package de.unistuttgart.iste.rss.oo.hamstersimulator;
 
 import java.util.function.Consumer;
+import java.io.IOException;
 
 import de.unistuttgart.iste.rss.oo.hamstersimulator.datatypes.Direction;
 import de.unistuttgart.iste.rss.oo.hamstersimulator.datatypes.Location;
@@ -25,7 +26,7 @@ public final class TestOpenJML {
      * Main method which instantiates, initializes, and starts a hamster game.
      * @param args Default command line parameters, not used.
      */
-    public static void main(final String[] args) {
+    public static void main(final String[] args) throws IOException {
         JavaFXUI.start();
 
         final HamsterGame game = new HamsterGame();
