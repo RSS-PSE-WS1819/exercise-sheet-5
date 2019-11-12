@@ -1,6 +1,0 @@
-package de.unistuttgart.iste.rss.oo.hamstersimulator.datatypes;
-
-public final class Location {
-    public /*@ pure @*/ int getRow();
-    public /*@ pure @*/ int getColumn();
-}
